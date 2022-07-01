@@ -344,12 +344,12 @@ main {
 
 @media screen and (max-width:576px) {
     .container-img {
-        width: 90%;
-        grid-template-columns: repeat(1, 3fr);
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .container-img .box-img img {
-        height: 200px;
+        height: 150px;
     }
 
     .navegador li a {
