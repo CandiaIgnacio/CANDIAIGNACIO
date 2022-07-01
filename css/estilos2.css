@@ -345,15 +345,15 @@ main {
 @media screen and (max-width:576px) {
     .container-img {
         width: 80%;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 3fr);
     }
 
     .container-img .box-img img {
-        height: 150px;
+        height: 200px;
     }
 
     .navegador li a {
-        font-size: 5rem;
+        font-size: 0.8rem;
 
     }
 
@@ -424,7 +424,7 @@ main {
     }
 
     .navegador li a {
-        font-size: 5rem;
+        font-size: 0.4rem;
         gap:0;
 
     }
